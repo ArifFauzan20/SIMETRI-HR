@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layouts.dashboard');
 });
+Route::get('/company', function () {
+    return view('page.admin.company');
+});
+Route::get('/divisi', function () {
+    return view('page.admin.divisi');
+});
+
